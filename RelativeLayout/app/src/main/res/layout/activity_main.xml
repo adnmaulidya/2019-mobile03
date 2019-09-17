@@ -11,7 +11,7 @@
         android:layout_height="match_parent"
         android:layout_alignParentEnd="true"
         android:layout_marginEnd="0dp"
-        android:background="#673AB7"></LinearLayout>
+        android:background="#DB6393"></LinearLayout>
 
     <Button
         android:id="@+id/button1"
@@ -20,7 +20,7 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:background="#FF42A8"
+        android:background="#FFFFFF"
         android:text="Top" />
 
     <Button
@@ -30,7 +30,7 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentBottom="true"
-        android:background="#FF42A8"
+        android:background="#FFFFFF"
         android:text="Bottom" />
 
     <Button
@@ -40,7 +40,7 @@
         android:layout_below="@id/button1"
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
-        android:background="#22E5FF"
+        android:background="#FF83A5"
         android:text="Left Below Top" />
 
     <Button
@@ -50,18 +50,17 @@
         android:layout_above="@+id/button2"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:background="#22E5FF"
+        android:background="#C7C4C4"
         android:text="Right Above Bottom" />
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="371dp"
+        android:layout_height="250dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_marginStart="0dp"
         android:layout_marginTop="-2dp"
-        android:background="#FFE80E" ></RelativeLayout>
-
+        android:background="#000000"></RelativeLayout>
 
     <!--		app:layout_constraintBottom_toBottomOf="parent"-->
     <!--		app:layout_constraintLeft_toLeftOf="parent"-->
