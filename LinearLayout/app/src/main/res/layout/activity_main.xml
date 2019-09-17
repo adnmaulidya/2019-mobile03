@@ -8,21 +8,20 @@
     android:weightSum="4"
     tools:context=".MainActivity">
 
-<!--    match parent : -->
-<!--    digunakan untuk menyesuaikan ukuran lebar dan tinggi suatu tampilan hp -->
-<!--    wrap content :-->
-<!--    digunakan untuk menyesuaikan lebar dan tinggi tampilan sama dengan objek-->
+    <!--    match parent : -->
+    <!--    digunakan untuk menyesuaikan ukuran lebar dan tinggi suatu tampilan hp -->
+    <!--    wrap content :-->
+    <!--    digunakan untuk menyesuaikan lebar dan tinggi tampilan sama dengan objek-->
 
-<!--    <TextView-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:text="Hello World!" />-->
+    <!--    <TextView-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="Hello World!" />-->
     <LinearLayout
         android:layout_width="500dp"
         android:layout_height="500dp"
         android:layout_weight="3"
-        android:background="#FF6347"
-        >
+        android:background="#FF6347">
 
     </LinearLayout>
 
@@ -30,12 +29,11 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:background="#FFFFFF"
-        >
+        android:background="#FFFFFF">
 
     </LinearLayout>
-<!--    orientation   : membuat / mengubah tampilan (vertical/horizontal)-->
-<!--    weight sum    : jumlah dari seluruh layout weight-->
-<!--    layout weight : ukuran dari layout weight, semakin besar ukuran maka semakin lebar-->
+    <!--    orientation   : membuat / mengubah tampilan (vertical/horizontal)-->
+    <!--    weight sum    : jumlah dari seluruh layout weight-->
+    <!--    layout weight : ukuran dari layout weight, semakin besar ukuran maka semakin lebar-->
 
 </LinearLayout>
