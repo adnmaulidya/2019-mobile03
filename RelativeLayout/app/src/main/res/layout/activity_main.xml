@@ -50,7 +50,7 @@
         android:layout_above="@+id/button2"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:background="#A7A7A7"
+        android:background="#CACACA"
         android:text="Right Above Bottom" />
 
     <RelativeLayout
