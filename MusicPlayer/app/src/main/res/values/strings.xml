@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">MusicPlayer</string>
+    <string name="penyanyi">Sam Smith</string>
+    <string name="judul">How do you sleep?</string>
 </resources>
